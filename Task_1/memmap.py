@@ -16,13 +16,6 @@ def get_all(arr: np.array, x: int):
             max = i
     return [sum_of_arr,min,max]
 
-def chet(n, listik):
-    if n % 2 != 0:
-        listik.append(n // 2)
-    else:
-        listik.append(0)
-
-
 def mmap_reading():
     with timer():
         with temp_file('hello.txt') as file:
